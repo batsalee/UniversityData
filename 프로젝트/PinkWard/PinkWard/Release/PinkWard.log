@@ -1,0 +1,30 @@
+﻿빌드 시작: 2015-05-27 오후 5:25:03
+     1>2 노드의 "C:\Users\이동현\Desktop\학술제\PinkWard 최종 완성 본\PinkWard\PinkWard.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\PinkWard.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\PinkWard.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Process.cpp
+         Process.cpp
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\이동현\Desktop\학술제\PinkWard 최종 완성 본\Release\PinkWard.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\PinkWard.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\이동현\Desktop\학술제\PinkWard 최종 완성 본\Release\PinkWard.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\이동현\Desktop\학술제\PinkWard 최종 완성 본\Release\PinkWard.lib" /MACHINE:X86 Release\PinkWard.res
+         Release\ExitProcess.obj
+         Release\PinkWard.obj
+         Release\PinkWardDlg.obj
+         Release\Process.obj
+         Release\stdafx.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         PinkWard.vcxproj -> C:\Users\이동현\Desktop\학술제\PinkWard 최종 완성 본\Release\PinkWard.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\이동현\Desktop\학술제\PinkWard 최종 완성 본\Release\PinkWard.exe;#1" /manifest Release\PinkWard.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         "Release\PinkWard.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\PinkWard.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\이동현\Desktop\학술제\PinkWard 최종 완성 본\PinkWard\PinkWard.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.57

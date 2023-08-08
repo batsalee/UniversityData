@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+       	android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="20sp"
+        android:text="뭐 먹지..."/>
+    
+    <RadioGroup
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"> 
+    	<RadioButton 
+    	    android:id="@+id/all"
+    	    android:onClick="all"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="전체" />
+    	
+    	<RadioButton 
+    	    android:id="@+id/Dduckboki"
+    	    android:onClick="Dduckboki"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="떡볶이집" />
+    	
+    	<RadioButton 
+    	    android:id="@+id/ramen"
+    	    android:onClick="ramen"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="라면집" />
+    	
+    	<RadioButton 
+    	    android:id="@+id/rice"
+    	    android:onClick="rice"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="밥집" />
+    	
+    	<RadioButton 
+    	    android:id="@+id/china"
+    	    android:onClick="china"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="중국집" />
+    	
+    	<RadioButton 
+    	    android:id="@+id/chicken"
+    	    android:onClick="chicken"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="치킨" />
+    	
+		<RadioButton 
+    	    android:id="@+id/pork"
+    	    android:onClick="pork"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="돼지고기" />
+    	
+    	<RadioButton 
+    	    android:id="@+id/pizza"
+    	    android:onClick="pizza"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="피자집" />
+	</RadioGroup>
+    
+
+</LinearLayout>
